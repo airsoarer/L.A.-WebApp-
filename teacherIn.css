@@ -1,0 +1,57 @@
+body #modal{
+    background-color: rgba(0,0,0,0.8)
+}
+
+#modal{
+display:none;
+position: fixed;
+height: 100%;
+width:100%;
+overflow:auto;
+animation-name: openModal;
+animation-duration: 1s;
+margin: 0px;
+}
+
+#modal-content{
+    margin: 20px 10%;
+    padding:5px;
+}
+
+#close{
+    color:#ccc;
+    float:right;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#close:hover{
+    color: black;
+    text-decoration: none;
+}
+
+#email{
+    color:white;
+}
+
+#name{
+    color:white;
+}
+
+#pass{
+    color:white;
+}
+
+@keyframes openModal{
+    from{opacity: 0}
+    to{opacity: 1}
+}
+
+#modal-header{
+    color:white;
+    text-align: left;
+    margin-left: 5px;
+    display:block;
+    padding: 0px;
+}

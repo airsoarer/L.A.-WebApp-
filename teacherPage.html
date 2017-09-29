@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Stylesheets-->
+    <link href="teacherPage.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!--Scripts-->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+    <script src="./teacherPage.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="modal">
+            <div id="modal-header">
+                <span id="close" class="close">&times;</span>
+                <h2>Enter your class name and class size</h2>
+            </div>
+            <div id="modal-content">
+                <input type="text" placeholder="Enter Class Name" id="class">
+                <input type="number" placeholder="Enter Class Size" id="classSize">
+                <button id="create">Create Class</button>
+            </div>
+        </div>
+            <header>
+                <div id="firstHead">
+                    <img class="center-align" id="img" src="">
+                    <h1 class="center-align" id="tName">TEACHER NAME</h1>
+                </div>
+            </header>
+            <hr>
+            <div id="classes">
+
+            </div>
+            <div id="modalDiv">
+                <button id="addClass">Add Class</button>
+            </div>
+    </div>
+</body>
+</html>

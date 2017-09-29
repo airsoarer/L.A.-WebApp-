@@ -1,0 +1,37 @@
+body{
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#teacher{
+    width: 150px;
+    height: 140px;
+    color:blue;
+    text-align: center;
+    display:inline-block;
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+
+#teacher a{
+    color: blue;
+}
+
+#student{
+    width: 150px;
+    height: 140px;
+    color:green;
+    text-align: center;
+    display:inline-block;
+    position:absolute;
+    top:50%;
+    left:35%;
+}
+
+#student a{
+    color:green;
+}

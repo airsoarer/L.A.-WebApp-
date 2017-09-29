@@ -1,0 +1,13 @@
+body{
+    color: green;
+}
+
+#container{
+    display: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+input{
+    width: 50%;
+}
